@@ -1,0 +1,172 @@
+:root{
+    --darkest: #7c444f;
+    --medium: #9f5255;
+    --light: #e16a5a;
+    --yellow: #f1bb95;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1bb95;
+}
+.thetop{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #7c444f;
+    height: 60px;
+}
+.logo{
+    color: white;
+    font-family: cursive;
+}
+nav{
+    width: 30%;
+}
+nav ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;   
+}
+nav ul li{
+    width: 100%;
+    margin: 0 3px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 8px;
+    transition: 0.6ms;
+}
+nav ul li a:hover{
+    background-color: #9e5f6b;
+    border-radius: 6px;
+}
+nav ul li a:focus{
+    color: #7c444f;
+    background-color: white;
+    border-radius: 6px;
+}
+.carticon i{
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+section{
+    width: 100%;
+}
+.first{
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-color: #f1bb95;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first h5{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 400px;
+    line-height: 60px;
+}
+.first div img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.second h3, .footer h3{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.menu{
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .food{
+    width: 280px;
+    height: 350px;
+    background-color: #fff;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center ;
+}
+.food img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.05s ease-in-out;
+}
+.food img:hover{
+    margin-top: -80px;
+}
+.food .desc{
+    color: #7c444f;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.food .price{
+    color: #e16a5a;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.food button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: #7c444f;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.food button:hover{
+    background-color: #9e5f6b;
+}
+.footer{
+    background-color: #7c444f;
+    padding: 20px 0;
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .flex{
+    display: flex;
+    justify-content: space-around;
+}
+.footer i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
